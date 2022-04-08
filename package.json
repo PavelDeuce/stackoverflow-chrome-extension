@@ -1,5 +1,5 @@
 {
-  "name": "stackoverflow-webextension",
+  "name": "stackoverflow-chrome-extension",
   "version": "1.0.0",
   "description": "Simple stackoverflow web extension for chrome",
   "keywords": [
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://PavelDeuce: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@github.com/PavelDeuce/stackoverflow-webextension.git"
+    "url": "git+https://PavelDeuce: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@github.com/PavelDeuce/stackoverflow-chrome-extension.git"
   },
   "author": "Pavel Deryugin (PavelDeuce)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PavelDeuce/stackoverflow-webextension/issues"
+    "url": "https://github.com/PavelDeuce/stackoverflow-chrome-extension/issues"
   },
-  "homepage": "https://github.com/PavelDeuce/stackoverflow-webextension#readme",
+  "homepage": "https://github.com/PavelDeuce/stackoverflow-chrome-extension#readme",
   "devDependencies": {
     "htmlhint": "^0.14.1",
     "eslint": "^7.19.0",
