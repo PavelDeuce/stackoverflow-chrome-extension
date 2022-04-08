@@ -33,3 +33,13 @@ jobs:
         run: make install
       - name: Run linter
         run: make lint
+      - name: Test & publish code coverage
+          # Publish code coverage on Code Climate
+          # https://github.com/paambaati/codeclimate-action
+               uses: paambaati/codeclimate-action@v2.6.0
+          # Add Code Climate secret key
+               env:
+                 CC_TEST_REPORTER_ID: e9c5196314fb48f347a001bce0571d54cb35e0acf699f8e84d4728f5e0739a3a
+               with:
+                 coverageCommand: npm run test-coverage
+                 debug: true
